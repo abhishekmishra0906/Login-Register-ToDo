@@ -62,15 +62,6 @@
  .login p span:hover , .Register p span:hover{
     text-decoration: underline;
  }
- @media screen and (max-width : 480px) {
-    #Loginpage{
-        width: 90%;
-        margin: 50px auto;
-    }
-    .login, .register{
-        padding: 30px 20px;
-    }
- }
 #todoapp{
     width: 100%;
     max-width: 540px;
@@ -131,3 +122,34 @@ ul li{
     justify-content: space-between;
     align-items: center;
 }
+ @media screen and (max-width : 480px) {
+    #Loginpage{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .login, .register{
+        padding: 30px 20px;
+    }
+    #todoapp{
+        margin: 50px auto;
+        padding: 25px 20px 40px;
+    }
+       .row{
+        flex-direction: column;   /* input & button vertically */
+        padding: 15px;
+        border-radius: 15px;
+    }
+      .row input{
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 12px;
+        background: #fff;
+        border-radius: 8px;
+    }
+      #btn{
+        width: 100%;
+        padding: 14px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+ }
