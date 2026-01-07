@@ -10,57 +10,12 @@
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
- #Loginpage{
-    background-color: #fff;
-    max-width: 500px;
-    margin: 150px auto;
-    padding: 80px 45px;
-    border-radius: 12px;
- }
  h2{
     color: #153677;
     text-align: center;
     margin-bottom: 25px;
     font-size: 24px;
     font-weight: bold;
- }
- #loginuser,#registeruser,#loginpass,#registerpass{
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ccc;
-    margin: 10px 0px;
-    border-radius: 8px;
-    font-size: 16px;
-    outline: none;
- }
- #loginbtn , #registerbtn{
-    width: 100%;
-    padding: 12px;
-    background-color: #153677;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.3s;
- }
- #loginbtn:hover , #registerbtn:hover{
-    background-color: #0d2450;
- }
- .login p , .Register p{
-    text-align: center;
-    margin-top: 15px;
-    font-size: 14px;
-    color: #555;
- }
- .login p span , .Register p span{
-    color: #153677;
-    font-weight: bold;
-    cursor: pointer;
- }
- .login p span:hover , .Register p span:hover{
-    text-decoration: underline;
  }
 #todoapp{
     width: 100%;
@@ -123,13 +78,6 @@ ul li{
     align-items: center;
 }
  @media screen and (max-width : 480px) {
-    #Loginpage{
-        width: 90%;
-        margin: 50px auto;
-    }
-    .login, .register{
-        padding: 30px 20px;
-    }
     #todoapp{
         margin: 50px auto;
         padding: 25px 20px 40px;
